@@ -176,12 +176,18 @@ def meet_lwe(n, q, w):
 # ###################
 # # Parameters Sets #
 # ###################
+# outdated parameters
 # smaug128 = [256*2, 1024, min(140, 132)]
 # smaug192 = [256*3, 1024, min(150, 147)]
 # smaug256 = [256*5, 1024, 145]
 # print("WARNING: SMAUG256 uses hr=hs=145") 
 # # smaug256 = [256*5, 1024, min(145, 140)]
-#  
+#
+# new parameters, v1.0
+# smaug128 = [256*2, 1024, min(140, 132)]
+# smaug192 = [256*3, 1024, min(198, 151)]
+# smaug256 = [256*5, 1024, min(176, 160)]
+#
 # ###########################
 # # Meet-LWE attack (Rep-0) #
 # ###########################
